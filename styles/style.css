@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Gluten&display=swap');
+body{
+    background-color: #13293D;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Gluten', cursive;
+    color : #FC7753;
+
+}
+h2{
+    color : #EBEBEB;
+    font-family: 'Balsamiq Sans', cursive;
+}
+a:link,a:visited{
+    text-decoration: none;
+}
+
+
+.app{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#output{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#text{
+    color : #13293D;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+#prompt_container{
+    background-color: #EBEBEB;
+    height: 100px;
+    width: 400px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding: 10px;
+ 
+}
+
+#prompt_button:link,#prompt_button:visited{
+    display: block;
+    width: 150px;
+    height: 25px;
+    background: #FC7753;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 20px;
+    
+}
+#prompt_button:hover{
+    background-color: #FC7770;    
+}

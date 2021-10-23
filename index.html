@@ -1,1 +1,42 @@
-test
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel = "stylesheet" href= "styles/style.css"/>
+
+  <title>Random Movie Picker</title>
+
+</head>
+<body>
+  <header>
+    <nav class = "category">
+      <ul id = "nav-ul">
+        <li><a class = "category-li" href="#">Drama</a></li>
+        <li><a class = "category-li" href="#">Comedy</a></li>
+        <li><a class = "category-li" href="#">Romance</a></li>
+        <li><a class = "category-li" href="#">Coming of Age</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class = "app">
+
+    <section class = "flex" id = "headlines">
+      <h1>Movie Picker</h1>
+      <h2>Find your next movie to watch!</h2>
+    </section>
+    <section class = "flex" id = "output">
+      <div id = "prompt_container">
+        <p id ="text"></p>
+      </div>
+      <a id = "prompt_button" href = "#" onclick = "getMovie()">RANDOM</a>
+
+    </section>
+
+  </div>
+
+  <script src = "script.js"></script>
+</body>
+</html>
