@@ -2,18 +2,25 @@
     
     align-items: center;
     @include flexCenter(column);
-    
+    margin-left: 2rem ;
+    margin-right: 2rem ;
 }
 #image{
-    width: 50%;
-    margin-bottom: 2rem;
+   
+    min-width: 500px;
+    max-width: 800px;
+    width: 100%;
+
+    margin-bottom: 1rem;
+
+
 }
 
 
 #prompt_container{
     background-color: $white;
-    height: 100px;
-    width: 400px;
+    height: 4rem;
+    width: 50%;
     @include flexCenter(column);
     word-break:break-all;
     border-radius: 20px;

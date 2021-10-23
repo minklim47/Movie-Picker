@@ -46,17 +46,21 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 #image {
-  width: 50%;
-  margin-bottom: 2rem;
+  min-width: 500px;
+  max-width: 800px;
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
 #prompt_container {
   background-color: #EBEBEB;
-  height: 100px;
-  width: 400px;
+  height: 4rem;
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
