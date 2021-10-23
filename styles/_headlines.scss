@@ -1,0 +1,15 @@
+#headlines{
+    @include flexCenter(column);
+    margin: 50px;
+}
+h1{
+    font-size: 3rem;
+    font-family: 'Gluten', cursive;
+    color : $orange;
+
+}
+h2{
+    font-size: 1.5rem;
+    color : $white;
+    font-family: 'Balsamiq Sans', cursive;
+}

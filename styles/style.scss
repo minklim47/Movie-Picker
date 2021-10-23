@@ -1,0 +1,26 @@
+@import "./variables";
+@import "./header";
+@import "./headlines";
+@import "./output";
+
+/*=================mixin====================*/
+
+
+*{
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+html{
+    font-size : 18px;
+    background-color: $blue;
+}
+
+.app{
+    @include flexCenter(column);
+    align-items: center;
+    
+}
+

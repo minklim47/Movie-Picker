@@ -1,0 +1,48 @@
+#output{
+    
+    align-items: center;
+    @include flexCenter(column);
+    
+}
+
+#prompt_container{
+    background-color: $white;
+    height: 100px;
+    width: 400px;
+    @include flexCenter(column);
+    word-break:break-all;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    
+ 
+}
+#text{
+    color : #13293D;
+    font-family: 'Balsamiq Sans', cursive;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 10px; 
+    
+}
+
+#prompt_button:link,#prompt_button:visited{
+   
+    @include flexCenter(column);
+    text-align: center;
+    width: 150px;
+    height: 2rem;
+    background: #FC7753;
+    padding: 10px;
+    
+    border-radius: 20px;
+    color: $white;
+    
+    line-height: 2rem;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+#prompt_button:hover{
+    background-color: #FC7770;    
+}

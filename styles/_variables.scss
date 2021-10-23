@@ -1,0 +1,13 @@
+/*================== font =================*/
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Gluten&display=swap');
+/*================== color =================*/
+$white : #EBEBEB;
+$blue : #13293D;
+$orange : #FC7753;
+/*================== mixin =================*/
+@mixin flexCenter($flexDirection) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $flexDirection;
+}
