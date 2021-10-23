@@ -48,6 +48,11 @@ h2 {
           flex-direction: column;
 }
 
+#image {
+  width: 50%;
+  margin-bottom: 2rem;
+}
+
 #prompt_container {
   background-color: #EBEBEB;
   height: 100px;
@@ -67,7 +72,7 @@ h2 {
           flex-direction: column;
   word-break: break-all;
   border-radius: 20px;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 #text {
@@ -97,6 +102,7 @@ h2 {
   height: 2rem;
   background: #FC7753;
   padding: 10px;
+  margin-bottom: 3rem;
   border-radius: 20px;
   color: #EBEBEB;
   line-height: 2rem;

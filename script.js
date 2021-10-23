@@ -1,16 +1,32 @@
-var textArea = document.getElementById("text");
-var imageArea = document.getElementById("image")
+//var imageList = new Array("images/free_guy.jpg");
+//var movieList = ["Titanic","Lego","Love, Rosie","d","fsffsafsfa"];
 
-var movieList = ["Titanic","Lego","Love, Rosie","d","fsffffffffffffffffffffffffffffffffffffffffffffffffffffffffsafssafsfa"];
-var imageList = ["images/free_guy.jpg"]
+var text = document.getElementById("text");
+
+var movie = [];
+movie[0] = {
+    title : "Free Guy",
+    image : "images/free_guy.jpg",
+};
+movie[1] = {
+    title : "Booksmart",
+    image : "images/booksmart.jpg",
+};
+
+console.log(movie.length);
+
 
 function getMovie(){
-    let randomPick = movieList[Math.floor(Math.random() * movieList.length)];
-    textArea.innerHTML = movieList[0]; //randomPick;
-    imageArea.innerHTML = imageList[0];
-
-    let index = movieList.indexOf(randomPick);
-    movieList.splice(index,1);
+    let randomPick = movie[Math.floor(Math.random() * movie.length)];
     
-    console.log(movieList);
-}
+    text.innerHTML = randomPick.title; //randomPick;
+    document.getElementById("image").src=randomPick.image;
+    
+
+    
+
+    //let index = movieList.indexOf(randomPick);
+    //movieList.splice(index,1);
+    
+    
+};
