@@ -107,7 +107,7 @@ h2 {
   text-align: center;
   width: 150px;
   height: 2rem;
-  background: #FC7753;
+  background: #FD7049;
   padding: 10px;
   margin-bottom: 3rem;
   border-radius: 20px;
@@ -119,7 +119,7 @@ h2 {
 }
 
 #prompt_button:hover {
-  background-color: #FC7770;
+  background-color: #FD4D1C;
 }
 
 @media only screen and (max-width: 550px) {
