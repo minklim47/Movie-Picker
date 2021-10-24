@@ -1,5 +1,4 @@
 #output{
-    
     align-items: center;
     @include flexCenter(column);
     margin-left: 2rem ;
@@ -12,15 +11,13 @@
     width: 100%;
 
     margin-bottom: 1rem;
-
-
 }
-
 
 #prompt_container{
     background-color: $white;
     height: 4rem;
     width: 50%;
+    min-width: 270px;
     @include flexCenter(column);
     word-break:break-all;
     border-radius: 20px;
@@ -58,4 +55,10 @@
 }
 #prompt_button:hover{
     background-color: #FC7770;    
+}
+
+@media only screen and (max-width : 550px) {
+    #image{
+        min-width: 300px;
+    }
 }

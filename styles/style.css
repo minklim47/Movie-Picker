@@ -16,6 +16,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  text-align: center;
   margin: 50px;
 }
 
@@ -61,6 +62,7 @@ h2 {
   background-color: #EBEBEB;
   height: 4rem;
   width: 50%;
+  min-width: 270px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -117,6 +119,12 @@ h2 {
 
 #prompt_button:hover {
   background-color: #FC7770;
+}
+
+@media only screen and (max-width: 550px) {
+  #image {
+    min-width: 300px;
+  }
 }
 
 /*=================mixin====================*/

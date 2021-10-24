@@ -1,5 +1,6 @@
 #headlines{
     @include flexCenter(column);
+    text-align: center;
     margin: 50px;
 }
 h1{
